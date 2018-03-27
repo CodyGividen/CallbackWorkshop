@@ -32,7 +32,7 @@ public class CallbackFragment extends Fragment {
         callback.showToast();
     }
 
-    @OnClick(R.id.callback_message_textview)
+    @OnClick(R.id.change_textview_button)
     protected void changeTextviewButtonClicked() {
         callback.changeTextview();
     }
